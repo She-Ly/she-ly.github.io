@@ -1,0 +1,128 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family:Arial, Helvetica, Sans serif;
+}
+
+header nav{
+  display:flex;
+  justify-content:flex-end; 
+  
+}
+header nav .nav-right-section{
+  list-style:none;
+  width:250px;
+  height: auto;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+    gap:20px;
+    font-size:17px;
+  padding-top:25px;
+  margin-right:10px;
+}
+
+nav .nav-right-section .menu{
+  background-image:url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+  width:30px;
+  height:30px;
+  background-size:30px;
+  opacity:0.7;
+}
+.gmail,.imagenes{
+    text-decoration:none;
+    color:rgba(0,0,0,.87);
+}
+ #img , #gm{
+  padding-top:5px;
+}
+a:hover{
+  text-decoration:underline;
+}
+main{
+  margin-top:150px; 
+  text-align:center;
+  height:700px;
+}
+.google{
+  margin-bottom:35px;
+  width:350px;
+
+}
+main .main-input{
+  width:530px;
+  margin: 0 auto;
+  margin-bottom:35px;
+}
+main .main-input-container{
+  width:530px;
+  height:45px;
+ border:1px solid #dfe1e5;
+  border-radius:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 1px 1.5px 1px 1.5px rgba(0, 0, 0, 0.2);
+  border-radius:10px;
+
+}
+.main-input-container input{
+  height:31px;
+  border-radius:100px;
+  width:340px;
+  margin-right:60px;
+  margin-bottom:10px;
+  border:1px #ffffff;
+  font-family:Arial, Helvetica, Sans serif;
+  font-size:25px;
+  color:rgba(0,0,0,.5);
+  outline:none;
+}
+
+.main-input-container:hover{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.search{
+  opacity:0.4;
+}
+.main-input-container .search-icon img{
+  height:16px;
+  margin-top:22px;
+}
+.main-input-container .micro-icon{
+  margin-right:20px;
+}
+.buscar,.suerte{
+  height:40px;
+  width:145px;
+  font-weight:bold;
+  background-color:whitesmoke;
+  border-color:whitesmoke;
+}
+.buttons input{
+  border-radius:10px;
+  opacity:0.6;
+}
+.buttons input:hover{
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.suerte{
+ margin-left:11px;
+}
+footer{
+  height:80px;
+  background-color:whitesmoke;
+}
+footer .ul-footer{
+  display:flex;
+  list-style:none;
+  padding-top:30px;
+  gap:17px;
+  color:black;
+  opacity:0.5;
+  background-color:whitesmoke;
+}
+footer .ul-2-footer-pu{
+  margin-left:700px;
+  background-color:whitesmoke;
+}
